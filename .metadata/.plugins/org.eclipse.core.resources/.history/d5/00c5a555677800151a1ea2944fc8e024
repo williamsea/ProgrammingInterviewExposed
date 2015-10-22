@@ -15,7 +15,7 @@ public class PermutationOfString {
 	}
 	public static void doPermute( char[] in, StringBuffer out,
 				   boolean[] used, int length, int level ){
-		if( level == length ){ // Only when level is 4, it outputs results
+		if( level == length ){
 			System.out.println( out.toString() );
 			return;
 		}
